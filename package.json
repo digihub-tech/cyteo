@@ -11,13 +11,18 @@
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false"
   },
   "dependencies": {
+    "bootstrap": "^5.2.3",
+    "jquery": "^3.7.0",
+    "luxon": "^3.3.0",
     "pinia": "^2.0.35",
+    "popper.js": "^1.16.1",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
     "@tsconfig/node18": "^2.0.0",
     "@types/jsdom": "^21.1.1",
+    "@types/luxon": "^3.3.0",
     "@types/node": "^18.16.3",
     "@vitejs/plugin-vue": "^4.2.1",
     "@vitejs/plugin-vue-jsx": "^3.0.1",
